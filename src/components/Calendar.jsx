@@ -61,7 +61,6 @@ const Calendar = ({ events, onDateClick, onEventClick, onEventDrop }) => {
 };
 
 
-
   return (
     <div>
       {renderHeader()}
