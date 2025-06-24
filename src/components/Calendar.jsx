@@ -30,6 +30,7 @@ const Calendar = ({ events, onDateClick, onEventClick, onEventDrop }) => {
 
   );
 
+//To render days
  const renderDays = () => {
   const startDate = startOfWeek(startOfMonth(currentMonth));
   const endDate = endOfWeek(endOfMonth(currentMonth));
