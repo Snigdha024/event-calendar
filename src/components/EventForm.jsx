@@ -35,8 +35,6 @@ const EventForm = ({ date, existingEvent, onSave, onDelete }) => {
       time,
       recurrence,
     };
-
-    onSave(eventData);
   };
 
   return (
@@ -70,7 +68,7 @@ const EventForm = ({ date, existingEvent, onSave, onDelete }) => {
 ))}
 
       </select>
-      
+
       <div className="flex justify-between">
         <button
           type="submit"
