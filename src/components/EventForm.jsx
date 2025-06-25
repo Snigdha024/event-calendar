@@ -35,6 +35,7 @@ const EventForm = ({ date, existingEvent, onSave, onDelete }) => {
       time,
       recurrence,
     };
+    onSave(eventData);
   };
 
   return (
