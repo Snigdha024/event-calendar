@@ -6,11 +6,8 @@ import {
 } from 'date-fns';
 import DayCell from './DayCell';
 
-
 const Calendar = ({ events, onDateClick, onEventClick, onEventDrop }) => {
-
   const [currentMonth, setCurrentMonth] = React.useState(new Date());
-
   const renderHeader = () => (
     <div className="flex justify-between items-center mb-6 px-4">
   <button
@@ -27,7 +24,6 @@ const Calendar = ({ events, onDateClick, onEventClick, onEventDrop }) => {
     &gt;
   </button>
 </div>
-
   );
 
 //To render days
@@ -58,9 +54,7 @@ const Calendar = ({ events, onDateClick, onEventClick, onEventDrop }) => {
     {days}
   </div>
 );
-
 };
-
 
   return (
     <div>
