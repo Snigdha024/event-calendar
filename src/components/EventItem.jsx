@@ -19,7 +19,6 @@ const EventItem = ({ event, onClick }) => {
 >
   {event.title}
 </div>
-
   );
 };
 
