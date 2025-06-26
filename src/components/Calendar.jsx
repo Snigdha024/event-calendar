@@ -48,6 +48,7 @@ const Calendar = ({ events, onDateClick, onEventClick, onEventDrop }) => {
     );
     day = addDays(day, 1);
   }
+  
 
   return (
   <div className="grid grid-cols-7 gap-1 min-h-[36rem]"> 
